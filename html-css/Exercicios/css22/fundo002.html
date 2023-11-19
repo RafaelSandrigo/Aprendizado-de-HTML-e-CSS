@@ -8,13 +8,20 @@
 
     <style>
         body{
-            height: 100vh;
+            /* height: 100vh;
             background-color: black;
             background-image: url(imagem/20517007.jpg);
             background-repeat: no-repeat;
-            background-size: cover;
             background-position: center center;
-
+            background-attachment: fixed; */
+            
+            /* Shorthand - background
+            color > image > position > repeat > [size] > attachment 
+            */
+            
+            background: black url(imagem/20517007.jpg) center center no-repeat fixed;
+            /* o size é necessario atribui fora do "background" */
+            background-size: cover;
         }
 
         main{
